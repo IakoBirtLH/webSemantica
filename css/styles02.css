@@ -1,0 +1,175 @@
+/*
+    Autor: Jakoba Gonzalez Marcaida
+    Asignatura: LMSGI
+    UD_TareaEvaluación: 02_TEv02
+    Descripción: Desarrollar un sitio web, en este caso, uno con información sobre viajes.
+    Deberá presentar el sitio, tener una zona de navegación para acceder a los diferentes
+    contenidos, un listado de noticias con enlaces a páginas externas, un listado de
+    productos con al menos uno de ellos desarrollado y por último deberá tener un formulario
+    de contacto.
+*/
+
+/* ------------- CSS seccion categorias de viajes.html ------------- */
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+}
+.categories div {
+    position: relative;
+    width: 80%;
+    height: 45rem;
+    margin: 3rem 0;
+}
+
+.categories p {
+    width: 80%;
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 3rem 0 2rem 0;
+}
+
+.categories div a img:hover {
+    transform: scale(1.01);
+}
+
+.centered-title {
+    position:absolute;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+}
+
+/* ------------- CSS contenedores y titulos de noticias.html, contacto.html y producto.html ------------- */
+
+.noticias-container, .formulario-container, .producto-container {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.noticias-container p, .formulario-container p, .producto-container p {
+    width: 80%;
+    height: fit-content;
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 3rem 0 2rem 0;
+}
+
+/* ------------- CSS seccion noticias de noticias.html ------------- */
+
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 880px;
+    justify-content: center;
+    text-align: center;
+}
+
+.n {
+    position: relative;
+    background-color: rgba(43, 138, 168, 0.37);
+    width: 23rem;
+    height: 40rem;
+    margin: 1rem;
+    padding: 0 1rem;
+}
+
+.n img {
+    margin-top: 5%;
+    border-radius: 50%;
+    border: solid 3px #ffffff;
+    width: 90%;
+    height: 40%;
+}
+
+.n h5 {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.n p {
+    width: auto;
+    font-size: 1rem;
+    margin-top: -10px;
+}
+
+/* ------------- CSS seccion formulario de contacto.html ------------- */
+
+.formulario {
+    display: flex;
+    width: 80%;
+}
+
+.formulario img {
+    width: 40%;
+    margin: 3rem 1rem 10rem 0;
+    max-height: 800px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 2rem 0 3rem 1rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.datos input[type=text] {
+    width: 100%;
+    margin: 0.5rem 0 2rem 0;
+    padding: 1rem;
+}
+
+.datos textarea {
+    width: 100%;
+    resize: none;
+    margin-top: 0.5rem;
+}
+
+.datos input[type=submit] {
+    margin: 1.5rem;
+    padding: 1rem 4rem;
+    background-color: rgb(43, 138, 168);
+    color: #ffffff;
+    font-size: 1.2rem;
+    border: none;
+    width: 20rem;
+    align-self: end;
+}
+
+/* ------------- CSS-producto.html ------------- */
+
+.producto-container div {
+    width: 80%;
+    margin: 3rem 0;
+}
+
+.producto-container div img {
+    max-width: 50%;
+    max-height: 30rem;
+}
+
+.producto-container div p {
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Propiedad para alinear una imagen y un titulo del producto a la derecha */
+/* He probado ha hacerlo class pero en una de las ocurrencias no funcionaba,
+por eso está en id. */
+#float-dch {
+    float: right;
+    text-align: right;
+}

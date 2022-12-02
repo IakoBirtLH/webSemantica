@@ -1,0 +1,121 @@
+<!-- 
+    Autor: Jakoba Gonzalez Marcaida
+    Asignatura: LMSGI
+    UD_TareaEvaluación: 02_TEv02
+    Descripción: Desarrollar un sitio web, en este caso, uno con información sobre viajes.
+    Deberá presentar el sitio, tener una zona de navegación para acceder a los diferentes
+    contenidos, un listado de noticias con enlaces a páginas externas, un listado de
+    productos con al menos uno de ellos desarrollado y por último deberá tener un formulario
+    de contacto.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1c8b9c9ef4.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles01.css">
+    <title>Viajando por el mundo</title>
+</head>
+<body>
+    <header>
+        <section class="header-top">
+            <article class="header-logo">
+                <img src="src/logo_header.png" alt="logo_header">
+            </article>
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="viajes.html">VIAJES</a></li>
+                    <li><a href="noticias.html">NOTICIAS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="header-bottom">
+                <img src="src/playa_header.jpeg" alt="playa_header">
+
+        </section>
+    </header>
+    <main>
+        <section class="products">
+            <div id="title-p">
+                <span>Viajes que nos<br><strong>enamoran</strong></span>
+            </div>
+            <div id="img1">
+                <a href="viajes.html">
+                    <img src="src/bali.jpeg" alt="comida_bali">
+                </a>
+                <span class="titulo-img1">BALI</span>
+            </div>
+            <div id="img2">
+                <a href="viajes.html">
+                    <img src="src/argentina.jpeg" alt="argentina">
+                </a>
+                <span class="titulo-img2">ARGENTINA</span>
+            </div>
+            <div id="img3">
+                <a href="viajes.html">
+                    <img src="src/noruega.jpeg" alt="noruega">
+                </a>
+                <span class="titulo-img2">NORUEGA</span>
+            </div>
+        </section>
+        <section class="news">
+            <div id="title-n">
+                <span>¿Qu&eacute; est&aacute; pasando<br><strong>por el mundo?</strong></span>
+            </div>
+            <div id="n1">
+                <img src="https://images.ecestaticos.com/xNP93nDAW_b9lqw-eGD5ij2F4mY=/0x0:1000x750/600x450/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F965%2F92f%2F39c%2F96592f39cf88f4af1af16560c0642715.jpg" alt="news1">
+                <h5>Una ciudad española es la mejor del mundo para vivir, según Forbes</h5>
+                <p>La ciudad destaca en aspectos como el transporte público y la seguridad en un listado donde Madrid aparece en el puesto número 5 y Barcelona en el 14. Alicante se cae del ranking.</p>
+                <a class="boton-leer" target="_blank" href="https://www.elconfidencial.com/viajes/2022-12-01/ciudad-espanola-elegida-mejor-mundo-para-vivir_3533091/">Seguir Leyendo</a>
+            </div>
+            <div id="n2">
+                <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/A8BD/production/_126879134_p3210035.jpg.webp" alt="familia">
+                <h5>La familia que recorre el mundo antes de que sus hijos se queden ciegos</h5>
+                <p>Cuando los niños fueron diagnosticados, los especialistas sugirieron mostrarles la mayor cantidad de imágenes posible, a través de libros, para que las grabaran para siempre en su memoria: paisajes, animales, obras de arte...</p>
+                <a class="boton-leer" target="_blank" href="https://www.bbc.com/mundo/noticias-63051736">Seguir Leyendo</a>
+            </div>
+            <div id="n3">
+                <img src="https://img2.rtve.es/i/?w=1600&i=1661501912026.jpg" alt="Madeira">
+                <h5>7 razones por las que tienes que viajar a la hermosa isla de Madeira</h5>
+                <p>¿Estás pensando en visitar Madeira? Si todavía no te lo has planteado, después de leer este artículo seguramente apuntes este destino entre tus preferencias para ir de vacaciones. Y si ya habías decidido viajar a este archipiélago...</p>
+                <a class="boton-leer" target="_blank" href="https://www.rtve.es/television/20220826/7-motivos-viajar-madeira/2398583.shtml">Seguir Leyendo</a>
+            </div>
+            <div id="n4">
+                <img src="https://fotografias.lasexta.com/clipping/cmsimages01/2021/08/25/E2EFFFF3-9980-4EE8-990A-F6F43D9341BA/97.jpg?crop=3000,1688,x0,y0&width=1600&height=900&optimize=low&format=webply" alt="news4">
+                <h5>Reservar será obligatorio para entrar a Venecia desde el próximo 16 enero</h5>
+                <p>Venecia intentará acotar el turismo del que adolece desde hace décadas y que no ha hecho más que crecer (5,5 millones de llegadas y casi 13 millones de pernoctaciones en 2019, antes de la pandemia), mientras la población autóctona de su centro histórico no deja de caer.</p>
+                <a class="boton-leer" target="_blank" href="https://www.lasexta.com/noticias/internacional/reservar-sera-obligatorio-entrar-venecia-proximo-16-enero_2022070162bf6173f6f84d0001d92746.html">Seguir Leyendo</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <article class="subscribe">
+            <h3>BOLETIN INFORMATIVO</h3>
+            <input type="text" placeholder="Direcci&oacute;n de correo eletr&oacute;nico">
+            <a class="subscribe-botton" href="#">SUSCRIBIRSE&nbsp;&nbsp;&nbsp;></a>
+        </article>
+        <div>
+            <img src="src/logo_footer.png" alt="logo_footer">
+        </div>
+        <article class="contact">
+            <h3>CONTACTO</h3>
+            <a href="mailto:" style="padding-bottom: 3rem;">jakgonzalez@birt.eus</a>
+            <a href="#">Pol&iacute;tica de Privacidad</a>
+            <a href="#">Pol&iacute;tica de Cookies</a>
+            <div class="redes-sociales">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <p style="margin-top: 2rem;">&#169;&nbsp;&nbsp;&nbsp;Iakoba Gonzalez&nbsp;&nbsp;2022</p>
+        </article>
+    </footer>
+</body>
+</html>

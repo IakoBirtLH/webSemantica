@@ -1,0 +1,91 @@
+<!-- 
+    Autor: Jakoba Gonzalez Marcaida
+    Asignatura: LMSGI
+    UD_TareaEvaluación: 02_TEv02
+    Descripción: Desarrollar un sitio web, en este caso, uno con información sobre viajes.
+    Deberá presentar el sitio, tener una zona de navegación para acceder a los diferentes
+    contenidos, un listado de noticias con enlaces a páginas externas, un listado de
+    productos con al menos uno de ellos desarrollado y por último deberá tener un formulario
+    de contacto.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1c8b9c9ef4.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles01.css">
+    <link rel="stylesheet" href="css/styles02.css">
+    <title>Viajando por el mundo - VIAJES</title>
+</head>
+<body>
+    <header>
+        <section class="header-top">
+            <article class="header-logo">
+                <img src="src/logo_header.png" alt="logo_header">
+            </article>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a class="active" href="viajes.html">VIAJES</a></li>
+                    <li><a href="noticias.html">NOTICIAS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="header-bottom">
+                <img src="src/playa_header.jpeg" alt="playa_header">
+
+        </section>
+    </header>
+    <main>
+        <section class="categories">
+            <p>Viajes que nos<br><strong>enamoran</strong></p>
+            <div>
+                <a href="producto.html">
+                    <img src="src/bali_producto.jpeg" alt="">
+                </a>
+                <span class="centered-title">BALI</span>
+            </div>
+            <div>
+                <a href="producto.html">
+                    <img src="src/argentina_producto.jpeg" alt="">
+                </a>
+                <span class="centered-title">ARGENTINA</span>
+            </div>
+            <div>
+                <a href="producto.html">
+                    <img src="src/noruega_categorias.jpeg" alt="">
+                </a>
+                <span class="centered-title">NORUEGA</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <article class="subscribe">
+            <h3>BOLETIN INFORMATIVO</h3>
+            <input type="text" placeholder="Direcci&oacute;n de correo eletr&oacute;nico">
+            <a class="subscribe-botton" href="#">SUSCRIBIRSE&nbsp;&nbsp;&nbsp;></a>
+        </article>
+        <div>
+            <img src="src/logo_footer.png" alt="logo_footer">
+        </div>
+        <article class="contact">
+            <h3>CONTACTO</h3>
+            <a href="mailto:" style="padding-bottom: 3rem;">jakgonzalez@birt.eus</a>
+            <a href="#">Pol&iacute;tica de Privacidad</a>
+            <a href="#">Pol&iacute;tica de Cookies</a>
+            <div class="redes-sociales">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <p style="margin-top: 2rem;">&#169;&nbsp;&nbsp;&nbsp;Iakoba Gonzalez&nbsp;&nbsp;2022</p>
+        </article>
+    </footer>
+</body>
+</html>
